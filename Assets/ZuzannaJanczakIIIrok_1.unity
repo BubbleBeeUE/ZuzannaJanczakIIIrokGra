@@ -17326,7 +17326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1918648903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19429,7 +19429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2766520990345758701}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.3987014, z: -0, w: 0.9170808}
+  m_LocalRotation: {x: -0, y: -0.5814591, z: -0, w: 0.8135756}
   m_LocalPosition: {x: 14.000439, y: -0.013, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19437,7 +19437,7 @@ Transform:
   - {fileID: 790561598}
   - {fileID: 1583945497}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -46.994, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -71.106, z: 0}
 --- !u!1001 &6211580456276040003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19810,8 +19810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aadea12aa2513ff4cb8f67aa91ed12ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
-  maxHealth: 20
+  health: 200
+  maxHealth: 200
   healthBar: {fileID: 1462382491}
   Death:
     m_PersistentCalls:
