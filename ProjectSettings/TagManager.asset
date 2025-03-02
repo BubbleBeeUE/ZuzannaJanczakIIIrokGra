@@ -7,6 +7,7 @@ TagManager:
   - Collectables
   - Enemy
   - NPC
+  - End
   layers:
   - Default
   - TransparentFX

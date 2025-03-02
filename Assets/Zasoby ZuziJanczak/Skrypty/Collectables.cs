@@ -7,7 +7,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Collectables : MonoBehaviour
 {
 
-    private int Fiolka = 0;
+    
 
     public TextMeshProUGUI fiolkaText;
 

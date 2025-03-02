@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
 
 
 
-    public float speed = 8f;
+    public float speed = 7f;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
