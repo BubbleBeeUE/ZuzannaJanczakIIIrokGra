@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Collectables : MonoBehaviour
 {
-    
+
+    private int Fiolka = 0;
+
+    public TextMeshProUGUI fiolkaText;
 
     private void Start()
     {
@@ -21,7 +26,10 @@ public class Collectables : MonoBehaviour
             Destroy(collision.gameObject);
             score++;
             Debug.Log("Liczba próbek " + score);
-                    
+
+            fiolkaText.text = "Liczba zebranych fiolek: " + score;
+
+
         }
         
     }

@@ -11,7 +11,11 @@ public class footsteps : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized; 
+
+        if (direction.magnitude > 0.1f)
         {
             
            footstepsSound.enabled = true;
